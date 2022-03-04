@@ -1,0 +1,21 @@
+export const form_login = document.getElementById('form_login')
+export const form_register_user = document.getElementById('form_register_user')
+export const txtuser = document.getElementById('txtuser')
+export const txt_paswoord = document.getElementById('txt_paswoord')
+export const list_pokemones = document.getElementById('list_pokemones')
+export const txt_name_user = document.getElementById('txt_name_user')
+export const PokemonList_window = document.getElementById('PokemonList_window')
+export const list_pokemones_favorites=document.getElementById('list_pokemones_favorites')
+export const list_favorite=document.getElementById('list_favorite')
+export const txt_new_user=document.getElementById('txt_new_user')
+export const txt_newUser_paswoord=document.getElementById('txt_newUser_paswoord')
+export const container_forms=document.getElementById('container_forms')
+export const PokemonList_container=document.getElementById('PokemonList_container')
+export const btn_tags_login=document.getElementById('btn_tags_login')
+export const btn_tags_register=document.getElementById('btn_tags_register')
+export const title=document.getElementById('title')
+export const ArrayPokemones = localStorage.getItem('pokemon')===null ? [] : JSON.parse(localStorage.getItem('pokemon'))
+console.log(ArrayPokemones)
+
+
+
